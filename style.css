@@ -1,0 +1,144 @@
+/* ==========================================================================
+   PAULOLOPES.ORG — Portal Principal & Estilos Oficiais (style.css)
+   Soberania Digital, Humanidades & Prática de Autor
+   Autor: Paulo Furtado Lopes (mail@paulolopes.org)
+   ========================================================================== */
+
+:root {
+    --bg-color: #fcfbf9;          /* Papel de arquivo / Marfim */
+    --text-color: #0f1e2d;        /* Azul-marinho profundo */
+    --accent-color: #8c2d19;      /* Vermelho óxido / Sanguínea */
+    --muted-color: #5c6b73;       /* Azul pedra / Grafite */
+    --border-color: #d8d3cd;      /* Linha de divisão subtil */
+    --card-bg: #ffffff;           /* Branco puro para blocos */
+    
+    --font-serif: "Cardo", "Georgia", "Times New Roman", serif;
+    --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+
+    --text-base: clamp(1.05rem, 1vw + 0.9rem, 1.2rem);
+    --text-h1: clamp(2rem, 3.5vw + 1rem, 3.2rem);
+    --max-content-width: 72ch;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121820;
+        --text-color: #e2e8f0;
+        --accent-color: #d94e35;
+        --muted-color: #94a3b8;
+        --border-color: #2a3441;
+        --card-bg: #1a2332;
+    }
+}
+
+body {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    font-family: var(--font-serif);
+    line-height: 1.8;
+    font-size: var(--text-base);
+    margin: 0;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+.font-sans { font-family: var(--font-sans) !important; }
+.font-mono { font-family: var(--font-mono) !important; }
+
+/* Cabeçalho do Portal */
+header.portal-header {
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 24px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+header.portal-header h1 {
+    font-family: var(--font-sans);
+    font-size: var(--text-h1);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 8px 0;
+    color: var(--text-color);
+}
+
+.header-sub {
+    font-family: var(--font-sans);
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    color: var(--accent-color);
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* Bloco de Manifesto / Aforismo */
+.manifesto-box {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-left: 4px solid var(--accent-color);
+    padding: 28px 32px;
+    margin-bottom: 40px;
+    max-width: var(--max-content-width);
+    margin-inline: auto;
+}
+
+/* Cartões de Eixos Mestres */
+.card-item {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-left: 3px solid var(--text-color);
+    padding: 24px;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+    text-decoration: none !important;
+    color: inherit !important;
+    height: 100%;
+}
+
+.card-item:hover {
+    border-left-color: var(--accent-color);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(15, 30, 45, 0.08);
+}
+
+.card-item:hover h3 {
+    color: var(--accent-color);
+}
+
+.card-numeral {
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--accent-color);
+    margin-bottom: 8px;
+    display: block;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin: 6px 0 10px 0;
+    color: var(--text-color);
+    font-weight: 600;
+}
+
+.card-desc {
+    font-size: 0.92rem;
+    color: var(--muted-color);
+    margin: 0 0 16px 0;
+    line-height: 1.6;
+}
+
+.card-tag {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/* Rodapé e Caixas */
