@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="preload" href="manifest.json" as="fetch" type="application/json" crossorigin>
 
-    <title>Paulo Furtado Lopes — Artífice Orgânico & Investigador Cultural</title>
+    <title>Arquivo & Memória — Paulo Lopes</title>
 
     <!-- Framework W3.CSS -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -16,90 +16,118 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-    <!-- Folha de Estilos Oficial -->
+    <!-- Folha de Estilos Oficial (Partilhada no Portal) -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="w3-padding-large">
 
-    <main class="w3-content w3-padding-32" style="max-width: 1000px;">
+    <main class="w3-content w3-padding-24" style="max-width: 1100px;">
         
-        <!-- Cabeçalho Principal do Portal -->
-        <header class="portal-header">
-            <h1>Paulo Furtado Lopes</h1>
-            <p class="header-sub">Artífice Orgânico • Investigador Cultural</p>
+        <!-- Breadcrumb Superior -->
+        <nav class="breadcrumb" style="font-family: var(--font-mono); font-size: 0.8rem; margin-bottom: 20px; color: var(--muted-color);">
+            <a href="https://paulolopes.org" style="color: var(--accent-color); text-decoration: none;">paulolopes.org</a> / 
+            <span>Arquivo</span>
+        </nav>
+
+        <!-- Cabeçalho Principal -->
+        <header class="wiki-header" style="border-bottom: 2px solid var(--text-color); padding-bottom: 20px; margin-bottom: 30px;">
+            <h1 style="font-family: var(--font-sans); font-size: 2.5rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; margin: 0 0 10px 0;">Arquivo & Memória</h1>
+            <p class="header-sub" style="font-family: var(--font-sans); font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent-color); font-weight: 600; margin: 0;">Espólio Histórico, Territorial, Lexicográfico e Tecnológico</p>
         </header>
 
-        <!-- Manifesto / Aforismo Central -->
-        <section class="manifesto-box">
-            <p style="font-style: italic; font-family: var(--font-serif); font-size: 1.15rem; color: var(--accent-color); margin-top: 0; margin-bottom: 16px; text-align: center;">
-                "Enquanto a mão corta, a mente destila."
-            </p>
-            <p style="margin: 0; text-align: justify; line-height: 1.8;">
-                Este portal é uma oficina aberta onde se cruzam a prática manual, a investigação cultural e a experimentação digital. Neste ecossistema convergem a matéria culinária, a reflexão sobre as humanidades e a preservação de artefactos de autor, concebidos fora do fluxo acelerado das redes sociais.
+        <!-- Caixa de Enquadramento / Manifesto do Arquivo -->
+        <section class="warning-box" style="background-color: var(--card-bg); border: 1px solid var(--border-color); border-left: 4px solid var(--accent-color); padding: 25px 30px; margin-bottom: 40px;">
+            <h2 style="font-family: var(--font-sans); font-size: 1.1rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); margin-top: 0; margin-bottom: 12px;">Sobre Este Repositório</h2>
+            <p style="margin: 0; line-height: 1.8; text-align: justify;">
+                Este espaço constitui a arca central do ecossistema. Aqui converge o património material e imaterial acumulado: o diário de obra e permacultura da orla costeira, a arqueologia da língua através do glossário crítico, o espólio visual de lâminas e desenhos, a escrita epistolar das cartas e as ferramentas de software livre desenvolvidas para soberania digital.
             </p>
         </section>
 
-        <!-- Os Três Eixos Mestres do Ecossistema -->
+        <!-- Secções do Arquivo (Grelha de 5 Pastas) -->
         <div style="margin-bottom: 40px;">
-            <h2 class="font-sans" style="font-size: 1.15rem; font-weight: 600; text-transform: uppercase; letter-spacing: 2px; color: var(--text-color); margin-bottom: 25px; text-align: center; border-bottom: 1px solid var(--border-color); padding-bottom: 10px;">
-                Eixos de Investigação & Prática
+            <h2 class="font-sans" style="font-size: 1.15rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; color: var(--text-color); margin-bottom: 20px; border-bottom: 1px solid var(--border-color); padding-bottom: 8px;">
+                Diretórios do Arquivo
             </h2>
 
             <div class="w3-row-padding" style="margin-left: -16px; margin-right: -16px;">
                 
-                <!-- 1. SCRIPTORIUM -->
+                <!-- 1. COSTA -->
                 <div class="w3-col m4 s12 w3-margin-bottom">
-                    <a href="https://scriptoriumdigital.org" class="card-item">
+                    <a href="costa/" class="card-item">
                         <span class="card-numeral">01</span>
-                        <h3 class="card-title">Scriptorium</h3>
-                        <p class="card-desc">Estudos da cultura, teoria crítica, ensaios académicos e humanidades digitais.</p>
-                        <span class="card-tag">Entrar no Scriptorium &rarr;</span>
+                        <h3 class="card-title">Casa da Costa</h3>
+                        <p class="card-desc">Diário de obra, ecologia política e permacultura aplicada na orla costeira.</p>
+                        <span class="card-tag">Consultar Território &rarr;</span>
                     </a>
                 </div>
 
-                <!-- 2. GASTRONOMIA -->
+                <!-- 2. GLOSSÁRIO -->
                 <div class="w3-col m4 s12 w3-margin-bottom">
-                    <a href="https://gastronomia.paulolopes.org" class="card-item">
+                    <a href="glossario/" class="card-item">
                         <span class="card-numeral">02</span>
-                        <h3 class="card-title">Gastronomia</h3>
-                        <p class="card-desc">Caldo de Sabores: Diários de campo, arquivo técnico, fichas de ofício e terroir.</p>
-                        <span class="card-tag">Entrar na Cozinha &rarr;</span>
+                        <h3 class="card-title">Glossário Crítico</h3>
+                        <p class="card-desc">Arqueologia da língua: confronto entre a norma oficial e notas de campo.</p>
+                        <span class="card-tag">Consultar Léxico &rarr;</span>
                     </a>
                 </div>
 
-                <!-- 3. ARQUIVO -->
+                <!-- 3. ARTEFACTOS -->
                 <div class="w3-col m4 s12 w3-margin-bottom">
-                    <a href="https://arquivo.paulolopes.org" class="card-item">
+                    <a href="artefactos/" class="card-item">
                         <span class="card-numeral">03</span>
-                        <h3 class="card-title">Arquivo</h3>
-                        <p class="card-desc">Memória, Casa da Costa, Glossário Crítico, Lâminas, Cartas da Aldeia e Código.</p>
-                        <span class="card-tag">Consultar Espólio &rarr;</span>
+                        <h3 class="card-title">Artefactos Visuais</h3>
+                        <p class="card-desc">Lâminas, composições de poesia gráfica, desenhos analógicos e fotografia.</p>
+                        <span class="card-tag">Ver Espólio Plástico &rarr;</span>
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="w3-row-padding" style="margin-left: -16px; margin-right: -16px; margin-top: 10px;">
+                
+                <!-- 4. CÓDIGO -->
+                <div class="w3-col m6 s12 w3-margin-bottom">
+                    <a href="codigo/" class="card-item">
+                        <span class="card-numeral">04</span>
+                        <h3 class="card-title">Código & Tecnologia</h3>
+                        <p class="card-desc">Ferramentas de software livre criadas em Chez Scheme, C, Assembly e scripts de suporte.</p>
+                        <span class="card-tag">Ver Oficina Tecnológica &rarr;</span>
+                    </a>
+                </div>
+
+                <!-- 5. CARTAS -->
+                <div class="w3-col m6 s12 w3-margin-bottom">
+                    <a href="cartas/" class="card-item">
+                        <span class="card-numeral">05</span>
+                        <h3 class="card-title">Cartas da Aldeia</h3>
+                        <p class="card-desc">Série epistolar: correspondência ficcional e conceptual redigida na periferia.</p>
+                        <span class="card-tag">Ler Missivas &rarr;</span>
                     </a>
                 </div>
 
             </div>
         </div>
 
-        <!-- Rodapé Institucional Transversal -->
+        <!-- RODAPÉ INSTITUCIONAL TRANSVERSAL -->
         <footer class="site-footer">
             
             <div class="footer-boxes-container w3-row w3-text-left" style="margin-bottom: 40px;">
                 
-                <div class="w3-col m8 l8 footer-box-left">
+                <div class="w3-col m8 l8 footer-box-left" style="padding: 24px;">
                     <h4 class="font-sans" style="font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-color); margin-top: 0; margin-bottom: 10px;">
-                        Sobre Este Espaço
+                        Sobre Este Arquivo
                     </h4>
                     <p style="font-size: 0.9rem; color: var(--text-color); margin: 0; line-height: 1.7; text-align: justify;">
-                        Laboratório construído para durar. Arquitetura estática baseada em HTML, W3.CSS e Markdown, assegurando total soberania digital, ausência de publicidade e independência tecnológica.
+                        Ecossistema digital soberano dedicado à intersecção entre a prática manual, a investigação cultural e a experimentação tecnológica. Organizado fora do fluxo acelerado das redes sociais, este espaço conjuga o food blog auto-etnográfico, o Scriptorium académico e o repositório histórico de autor.
                     </p>
                 </div>
 
-                <div class="w3-col m4 l4 footer-box-right">
+                <div class="w3-col m4 l4 footer-box-right" style="padding: 24px; border-left: 1px solid var(--border-color);">
                     <h4 class="font-sans" style="font-size: 0.95rem; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--text-color); margin-top: 0; margin-bottom: 10px;">
                         Apoiar a Oficina
                     </h4>
                     <p style="font-size: 0.85rem; color: var(--muted-color); margin: 0 0 14px 0; line-height: 1.5; text-align: justify;">
-                        Subsiste com o apoio autónomo da comunidade. Contribua se assim o entender.
+                        Espaço livre de publicidade e rastreadores, sustentado de forma independente pela comunidade. Contribua se assim o entender.
                     </p>
                     <div class="w3-center">
                         <a href="https://paypal.me/PauloFurtadoLopes" target="_blank" rel="noopener" class="btn-donativos">
@@ -110,11 +138,12 @@
 
             </div>
 
+            <!-- Aforismo Central -->
             <p style="font-style: italic; font-family: var(--font-serif); margin-bottom: 1.2rem; color: var(--muted-color); text-align: center;">
                 "Enquanto a mão corta, a mente destila."
             </p>
             
-            <!-- Menu Transversal -->
+            <!-- Menu Transversal do Ecossistema -->
             <div class="footer-links" style="margin-bottom: 15px;">
                 <a href="https://paulolopes.org">Portal Principal</a> &mdash; 
                 <a href="https://scriptoriumdigital.org">Scriptorium</a> &mdash; 
@@ -122,12 +151,12 @@
                 <a href="https://arquivo.paulolopes.org">Arquivo</a>
             </div>
             
+            <!-- Assinatura e Contacto -->
             <p class="font-mono w3-tiny w3-uppercase w3-wide" style="letter-spacing: 0.05em; margin-bottom: 0.5rem; color: var(--muted-color); text-align: center;">
                 • PAULO FURTADO LOPES •
             </p>
             <p class="font-mono w3-tiny" style="color: var(--muted-color); margin: 0; text-align: center;">
-                Contacto Direto: <a href="mailto:mail@paulolopes.org" style="color: inherit; font-weight: 600;">mail@paulolopes.org</a> &mdash; 
-                <a href="cv.html" style="color: inherit; font-weight: 600;">[ Currículo Vitae ]</a>
+                Contacto Direto: <a href="mailto:mail@paulolopes.org" style="color: inherit; font-weight: 600;">mail@paulolopes.org</a>
             </p>
         </footer>
 
