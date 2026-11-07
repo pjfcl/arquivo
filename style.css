@@ -142,3 +142,58 @@ header.portal-header h1 {
 }
 
 /* Rodapé e Caixas */
+.footer-boxes-container {
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg);
+    margin-bottom: 40px;
+}
+
+.footer-box-left { padding: 24px; }
+.footer-box-right { padding: 24px; border-left: 1px solid var(--border-color); }
+
+@media (max-width: 768px) {
+    .footer-box-right { border-left: none; border-top: 1px solid var(--border-color); }
+}
+
+.site-footer {
+    margin-top: 4rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    color: var(--muted-color);
+    text-align: center;
+}
+
+.footer-links {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer-links a:hover { text-decoration: underline; }
+
+.btn-donativos {
+    display: inline-block;
+    background-color: var(--text-color);
+    color: #ffffff !important;
+    font-family: var(--font-sans);
+    font-size: 0.8rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid var(--text-color);
+    transition: background-color 0.2s ease;
+}
+.btn-donativos:hover { background-color: var(--accent-color); }
