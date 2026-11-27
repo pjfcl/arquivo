@@ -7,7 +7,7 @@ Reacção verbal, escrita ou gestual dada a uma pergunta, interpelação, estím
 **1. Registo Etnográfico**
 *Log ID: 20261127_01 (27/11/2026)*
 
-> «Escrevi um comentario num blog que vou seguindo em finais de Agosto, quase Setembro. A autora respondeu ontem.»
+> «Escrevi um comentario num blog que vou seguindo em finais de Agosto. A autora respondeu em Novembro.»
 
 **2. Sentido do Contrabando**
 No léxico corrente das interfaces digitais contemporâneas, a «resposta» tende a ser capturada pela urgência do tempo real, convertendo-se num reflexo imediato sob a pressão da notificação, da métrica e da disponibilidade contínua que Jonathan Crary associa ao regime *24/7* e Hartmut Rosa analisa através da aceleração social. A observação de campo expõe o contraste entre essa gramática da reactividade instantânea — onde o que não se resolve no *feed* imediato se dilui na obsolescência — e a prática situada num blogue independente, onde um comentário deixado no fim do verão encontra retorno três meses depois sem perder inscrição nem pertinência.
